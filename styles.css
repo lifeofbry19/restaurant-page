@@ -1,0 +1,117 @@
+body {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/961/999/772/harry-potter-hogwarts-castle-hd-wallpaper-preview.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(184, 82, 111, 0.9);
+  margin: 0;
+}
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  background-color: black;
+  color: white;
+  opacity: 0.95;
+}
+.nav {
+  display: flex;
+  font-size: 1.5rem;
+  background-color: rgb(18, 19, 44);
+  opacity: 0.9;
+  color: white;
+  gap: 4px;
+}
+.nav > div {
+  flex: 1;
+  border-top: 4px solid rgb(255, 255, 255);
+  border-bottom: 4px solid rgb(255, 255, 255);
+  display: flex;
+  background-color: rgba(184, 82, 111, 0.9);
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.nav > div:hover {
+  font-size: 1.7rem;
+  border-color: rgb(252, 255, 82);
+  color: rgb(252, 255, 82);
+}
+span {
+  background-color: rgba(231, 127, 127, 0.5);
+  border-radius: 50%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+/* tab-dependent content */
+/* home tab */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(184, 82, 111, 0.9);
+
+  color: white;
+  padding: 40px;
+  height: 500px;
+}
+.about > p {
+  font-size: 1.5rem;
+}
+
+/* menu tab */
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 40px;
+  height: 500px;
+  background-color: rgba(184, 82, 111, 0.9);
+  gap: 30px;
+}
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 150px;
+  color: rgb(0, 0, 0);
+  border: 4px solid transparent;
+  border-radius: 6px;
+  box-shadow: 0px 0px 8px black;
+  background-color: rgb(252, 255, 96);
+  flex: 1;
+}
+.menu-item:first-child {
+  background-position: center;
+  background-size: contain;
+}
+
+/* contact tab */
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 40px;
+  height: 500px;
+  background-color: rgba(184, 82, 111, 0.9);
+}
+.contact-section > p {
+  font-size: 2rem;
+}
