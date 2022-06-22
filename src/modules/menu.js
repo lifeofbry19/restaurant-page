@@ -29,13 +29,23 @@ function renderMenuPage() {
   contentDiv.appendChild(menuContainer);
 
   createMenuItem(
-    "this is the first menu item",
+    "Butterbeer Cake: layers and layers of magical sweetness",
     "https://eatitandsayyum.com/wp-content/uploads/2015/12/Harry-Potter-Butterbeer-Cake-with-a-browned-butter-frosting-and-Spiced-Molasses-Butterscotch.jpg"
   );
 
   createMenuItem(
-    "this is the second menu item",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBLMtbqkPcOgiRnFig_D5mdx_ytE8Ue7-vGw&usqp=CAU"
+    "Classic Butterbeer: even muggles love this one!",
+    "https://princesspinkygirl.com/wp-content/uploads/2014/11/IMG_1897-1024x1024.jpg"
+  );
+
+  createMenuItem(
+    "Polyjuice Potion Cocktail: A truly transformative drink",
+    "https://cookingwithcurls.com/wp-content/uploads/2014/10/This-Polyjuice-Potion-Cocktail-Punch-recipe-could-not-be-any-easier-to-make-and-it-is-quite-the-conversation-starter-at-parties.-cookingwithcurls.com_.jpg"
+  );
+
+  createMenuItem(
+    "Butterbeer Fudge: we like butterscotch, can you tell?",
+    "https://cdn.totallythebomb.com/wp-content/uploads/2015/11/harry-potter-fudge.jpg.webp"
   );
   const footer = document.createElement("div");
   contentDiv.appendChild(footer);

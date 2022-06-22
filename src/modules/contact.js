@@ -22,8 +22,11 @@ function renderContactPage() {
   contactSection.appendChild(contactTitle);
   contactTitle.textContent = "Contact";
   const contactInfo = document.createElement("p");
+  const addressInfo = document.createElement("p");
+  contactSection.appendChild(addressInfo);
   contactSection.appendChild(contactInfo);
-  contactInfo.textContent = "Phone Number: 111 - 111 - 1111";
+  addressInfo.textContent = "Location: if you know, you need only ask";
+  contactInfo.textContent = "Phone Number: 123 - 456 - 0000";
 
   footer.textContent = "made with magic";
 }

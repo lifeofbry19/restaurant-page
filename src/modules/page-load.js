@@ -15,7 +15,7 @@ function onLoad() {
   aboutSection.classList.add("mid-section");
   footer.classList.add("footer");
 
-  header.textContent = "Three Broomsticks";
+  header.textContent = "Tonks' Tasty Treats";
 
   const homeBtn = document.createElement("div");
   const menuBtn = document.createElement("div");
@@ -39,8 +39,9 @@ function onLoad() {
   const aboutParagraph = document.createElement("p");
   aboutSection.appendChild(aboutParagraph);
   aboutParagraph.textContent =
-    "This is the about section on the home page of the website. There will\
-    be info here about the kind of food and all that stuff";
+    "The tastiest treats for our most magical customers. Witches, wizards, and\
+    muggles alike come from 'round the world to try our carefully curated drinks and delectable\
+    desserts. Come and see us, you're bound to find the experience enchanting.";
 
   footer.textContent = "made with magic";
 }

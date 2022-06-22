@@ -23,8 +23,9 @@ function renderHomePage() {
   const aboutParagraph = document.createElement("p");
   aboutSection.appendChild(aboutParagraph);
   aboutParagraph.textContent =
-    "Welcome to the new about section on the home page of the website. There will\
-    be info here about the kind of food and all that stuff";
+    "The tastiest treats for our most magical customers. Witches, wizards, and\
+    muggles alike come from 'round the world to try our carefully curated drinks and delectable\
+    desserts. Come and see us, you're bound to find the experience enchanting.";
 
   footer.textContent = "made with magic";
 }
